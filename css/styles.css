@@ -1,0 +1,153 @@
+body,
+html {
+    height: 100vh;
+}
+
+.bg-img {
+    background-image: url(../img/floralbg4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#hash {
+    text-align: center;
+    color: #009879;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.form-container {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    height: 520px;
+    width: 100%;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    padding: 80px 40px 40px;
+    background-color: #34ad4e2d;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.form .input-content {
+    width: 100%;
+    font-size: 0.9em;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #00987ab2;
+    outline: none;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+.radio{
+    margin-bottom: 30px;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #009879;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+.btn-edited {
+    width: 400px;
+}
+
+.alg-cnt {
+    text-align: center;
+
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    align-items: center;
+}
+.content-table thead tr {
+    background-color: #00987ab2;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #00987ab2;
+}
+
+.content-table tbody tr:nth-child(even) {
+    background-color: #34ad4e2d;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #00987ab2;
+}
+tr:hover td {
+    background-color: #34ad4eb7;
+    font-weight: bold;
+    color: #017e65;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #00987ab2;
+    border-radius: 10px;
+    background: #00987ab2;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00987ab2;
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #34ad4eb7;
+}
